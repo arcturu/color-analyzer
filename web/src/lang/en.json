@@ -1,0 +1,11 @@
+{
+    "translation": {
+      "DRAG_AND_DROP_HERE": "Drag and drop an image here",
+      "YOUR_IMAGE_WILL_NOT_BE_UPLOADED": "All processing occurs in your browser, guaranteeing that your images never leave your device.",
+      "HSV_HUE": "Hue",
+      "HSV_SATURATION": "Saturation",
+      "HSV_VALUE": "Value",
+      "COLOR_CODE": "Color code",
+      "EXAMPLE": "Example"
+    }
+  }

@@ -1,0 +1,11 @@
+{
+  "translation": {
+    "DRAG_AND_DROP_HERE": "ここに画像をドラッグ＆ドロップ",
+    "YOUR_IMAGE_WILL_NOT_BE_UPLOADED": "すべての処理がブラウザ上で行われるため、画像が外部に送信されることはありません。",
+    "HSV_HUE": "色相",
+    "HSV_SATURATION": "彩度",
+    "HSV_VALUE": "明度",
+    "COLOR_CODE": "カラーコード",
+    "EXAMPLE": "サンプル"
+  }
+}

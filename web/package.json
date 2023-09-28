@@ -1,0 +1,56 @@
+{
+  "name": "color-analyzer",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@mui/icons-material": "^5.14.0",
+    "@mui/material": "^5.14.0",
+    "gl-matrix": "^3.4.3",
+    "i18next": "^23.2.11",
+    "image-js": "^0.35.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-i18next": "^13.0.2"
+  },
+  "scripts": {
+    "build": "vite build",
+    "dev": "vite dev --host",
+    "format": "prettier --write .",
+    "lint:format": "prettier --cache --check .",
+    "lint": "eslint --cache .",
+    "test": "npm-run-all --parallel tsc:check vitest:run lint lint:format",
+    "tsc:check": "tsc",
+    "vitest:run": "vitest run"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@testing-library/react": "^14.0.0",
+    "@testing-library/user-event": "^14.4.3",
+    "@types/node": "^20.4.2",
+    "@types/react": "^18.2.15",
+    "@types/react-dom": "^18.2.7",
+    "@typescript-eslint/eslint-plugin": "^6.0.0",
+    "@typescript-eslint/parser": "^6.0.0",
+    "@vitejs/plugin-react": "^4.0.3",
+    "eslint": "^8.45.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-prettier": "^5.0.0",
+    "prettier": "^3.0.0",
+    "typescript": "^5.1.6",
+    "vite": "^4.4.4",
+    "vitest": "^0.33.0"
+  }
+}
